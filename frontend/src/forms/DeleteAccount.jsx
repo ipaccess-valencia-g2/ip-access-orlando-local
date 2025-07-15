@@ -11,7 +11,7 @@ const DeleteAccount = ({ userID, onClose, onConfirm }) => {
 
         setIsProcessing(true);
         try {
-            const response = await fetch(`http://18.223.161.174:3307/users/${userID}`, {
+            const response = await fetch(`http://localhost:3307/users/${userID}`, {
                 method: 'DELETE',
                 headers: { 'Content-Type': 'application/json' },
             });

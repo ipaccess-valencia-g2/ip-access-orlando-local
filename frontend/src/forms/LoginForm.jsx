@@ -37,7 +37,7 @@ const LoginForm = () => {
         setSuccessMessage('');
 
         try {
-            const response = await fetch(`http://18.223.161.174:3307/login`, {
+            const response = await fetch(`http://localhost:3307/login`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 credentials: 'include', // important for cookie

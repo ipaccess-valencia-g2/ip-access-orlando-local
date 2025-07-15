@@ -10,8 +10,7 @@ app.use(useragent.express());
 
 const allowedOrigins = [
   'http://localhost:5173',
-  'http://localhost:3307',
-  'http://18.223.161.174'
+  'http://localhost:3307'
 ];
 
 const corsOptions = {

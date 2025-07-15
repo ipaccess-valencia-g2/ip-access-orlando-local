@@ -8,17 +8,17 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:3000/reservations?userID=1",
+			"name": "http://localhost:3307/reservations?userID=1",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/reservations?userID=1",
+					"raw": "http://localhost:3307/reservations?userID=1",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
-					"port": "3000",
+					"port": "3307",
 					"path": [
 						"reservations"
 					],

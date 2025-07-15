@@ -33,7 +33,7 @@ const ChangePassword = ({ userID, onClose, onSave }) => {
 
         try {
             const response = await fetch(
-                `http://18.223.161.174:3307/users/${userID}/password/${encodeURIComponent(formData.newPassword)}`,
+                `http://localhost:3307/users/${userID}/password/${encodeURIComponent(formData.newPassword)}`,
                 {
                     method: 'PUT',
                 }
