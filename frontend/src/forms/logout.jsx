@@ -9,7 +9,7 @@ const Logout = ({ onClose, onConfirm }) => {
     const handleLogout = async () => {
         setIsSubmitting(true);
         try {
-            const res = await fetch('http://18.223.161.174:3307/logout', {
+            const res = await fetch('http://localhost:3307/logout', {
                 method: 'POST',
                 credentials: 'include',
             });
